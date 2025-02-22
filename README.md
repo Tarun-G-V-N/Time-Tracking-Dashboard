@@ -4,7 +4,7 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
 
 ### Links
 
-- Live Site URL: [Time tracking dashboard](https://your-live-site-url.com)
+- Live Site URL: [Time tracking dashboard](https://time-tracking-dashboard-inky-eta.vercel.app/)
 
 ## My process
 
