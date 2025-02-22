@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Time tracking dashboard</title>
+</head>
+<body>
+  <div id="profile">
+    <div id="about">
+      <img src="images/image-jeremy.png" alt="no image">
+      <p id="report">Report for</p>
+      <p id="name">Jeremy Robson</p>
+    </div>
+    <div id="frequency">
+      <button id="daily">Daily</button>
+      <button id="weekly">Weekly</button>
+      <button id="monthly">Monthly</button>
+    </div>
+  </div>
+
+  <div id="tracking">
+    <div class="card" id="work">
+      <img src="images/icon-work.svg" alt="">
+      <div class="data">
+        <div class="title">
+          Work
+          <img src="images/icon-ellipsis.svg" alt="">
+        </div>
+        <div class="time">
+          <p class="current">5hrs</p> <!-- daily -->
+          <p class="previous">Last Week - 7hrs</p> <!-- daily -->
+        </div>
+      </div>
+    </div>
+
+    <div class="card" id="play">
+      <img src="images/icon-play.svg" alt="">
+      <div class="data">
+        <div class="title">
+          Play
+          <img src="images/icon-ellipsis.svg" alt="">
+        </div>
+        <div class="time">
+          <p class="current">1hrs</p> 
+          <p class="previous">Last Month - 2hrs</p> 
+        </div>
+      </div>
+    </div>
+
+    <div class="card" id="study">
+      <img src="images/icon-study.svg" alt="no image">
+      <div class="data">
+        <div class="title">
+          Study
+          <img src="images/icon-ellipsis.svg" alt="">
+        </div>
+        <div class="time">
+          <p class="current">0hrs</p> 
+          <p class="previous">Previous - 1hr</p> 
+        </div>
+      </div>
+    </div>
+
+    <div class="card" id="exercise">
+      <img src="images/icon-exercise.svg" alt="">
+      <div class="data">
+        <div class="title">
+          Exercise
+          <img src="images/icon-ellipsis.svg" alt="">
+        </div>
+        <div class="time">
+          <p class="current">1hrs</p> 
+          <p class="previous">Previous - 1hr</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" id="social">
+      <img src="images/icon-social.svg" alt="">
+      <div class="data">
+        <div class="title">
+          Social
+          <img src="images/icon-ellipsis.svg" alt="">
+        </div>
+        <div class="time">
+          <p class="current">1hrs</p>
+          <p class="previous">Previous - 3hrs</p> 
+        </div>
+      </div>
+    </div>
+
+    <div class="card" id="selfCare">
+      <img src="images/icon-self-care.svg" alt="">
+      <div class="data">
+        <div class="title">
+          Self Care
+          <img src="images/icon-ellipsis.svg" alt="">
+        </div>
+        <div class="time">
+          <p class="current">0hrs</p> 
+          <p class="previous">Previous - 1hr</p> 
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
